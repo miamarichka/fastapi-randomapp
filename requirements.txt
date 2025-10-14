@@ -1,0 +1,13 @@
+# --- runtime ---
+fastapi>=0.115,<0.116
+uvicorn[standard]>=0.30,<0.31
+sqlalchemy>=2.0,<2.1
+pydantic>=2.8,<3.0
+pydantic-settings>=2.3,<3.0
+pydantic[email]>=2.8,<3.0
+httpx>=0.27,<0.28
+python-dotenv>=1.0,<2.0
+faker
+# --- testing ---
+pytest>=8.2,<9.0
+anyio>=4.4,<5.0

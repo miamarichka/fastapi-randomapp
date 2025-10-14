@@ -1,0 +1,53 @@
+# --- Python & FastAPI ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+*.so
+.Python
+
+# --- Virtual environments ---
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+pip-wheel-metadata/
+
+# --- IDEs / Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- Databases / Logs ---
+*.db
+*.sqlite3
+*.log
+
+# --- Pytest / Coverage ---
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+.pytest_cache/
+.cache/
+
+# --- Build / Distribution ---
+build/
+dist/
+.eggs/
+MANIFEST
+
+# --- Environment / secrets ---
+.env
+.env.*
