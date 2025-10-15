@@ -1,4 +1,4 @@
-```RandomApp — Full-Stack FastAPI + React (Vite + TypeScript)
+```RandomApp — Full-Stack FastAPI + React (Vite + TypeScript)```
 
 A modular FastAPI project that generates and stores random Users, Banks, and Addresses, showing clean architecture, ORM relationships, and scalable structure.
 Now extended with a React (Vite + TypeScript) frontend and Docker Compose for easy full-stack setup.
@@ -25,7 +25,7 @@ Backend: Python 3.12, FastAPI, SQLAlchemy 2.0, Pydantic v2, httpx, Faker
 Frontend: React, Vite, TypeScript, Fetch API
 DevOps: Docker, Docker Compose
 
-Project Structure
+```Project Structure
 app/
 ├── api/            # FastAPI routers
 │   ├── users.py
@@ -59,7 +59,7 @@ frontend/
 ├── public/
 ├── package.json
 └── Dockerfile
-
+```
 
 Setup (Backend Only)
 1️⃣ Create virtual environment
@@ -75,7 +75,8 @@ uvicorn app.main:app --reload
 
 Server: http://127.0.0.1:8000
 
-Docs: http://127.0.0.1:8000/docs```
+Docs: http://127.0.0.1:8000/docs
+
 ![alt text](image.png)
 
 ```Frontend Setup (React + Vite + TypeScript)
@@ -88,7 +89,7 @@ npm run dev
 ```
 <img width="1442" height="780" alt="Screenshot 2025-10-15 at 13 16 38" src="https://github.com/user-attachments/assets/17cd6f8c-3a2e-4ac9-b30d-da0efa0fc588" />
 
-```Frontend: http://localhost:5173
+Frontend: http://localhost:5173
 
 Ensure your backend is running on port 8000.
 
@@ -97,11 +98,12 @@ Ensure your backend is running on port 8000.
 Easiest way to start the entire system locally.
 
 1️⃣ Build and start containers
-docker-compose up --build```
+docker-compose up --build
+
 <img width="688" height="284" alt="Screenshot 2025-10-15 at 13 15 56" src="https://github.com/user-attachments/assets/7e23da1c-4725-4a7c-9dda-b69fd9fe2f00" />
 
 
-```This launches:
+This launches:
 
 Backend → http://localhost:8000
 
@@ -111,7 +113,7 @@ Both communicate internally via Docker network.
 
 2️⃣ Stop containers
 docker-compose down
-
+```
 Endpoints Overview
 👤 Users
 Method Endpoint Description
@@ -128,4 +130,4 @@ POST /banks/random/save?user_id=1 Create random bank linked to user
 Method Endpoint Description
 GET /addresses/ List all addresses
 POST /addresses/ Create address manually
-POST /addresses/random/save?bank_id=1 Create random address linked to bank```
+POST /addresses/random/save?bank_id=1 Create random address linked to bank
