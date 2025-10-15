@@ -75,20 +75,20 @@ uvicorn app.main:app --reload
 
 Server: http://127.0.0.1:8000
 
-Docs: http://127.0.0.1:8000/docs
+Docs: http://127.0.0.1:8000/docs```
 ![alt text](image.png)
 
-Frontend Setup (React + Vite + TypeScript)
+```Frontend Setup (React + Vite + TypeScript)
 1️⃣ Install dependencies
 cd frontend
 npm install
 
 2️⃣ Start development server
 npm run dev
-
+```
 <img width="1442" height="780" alt="Screenshot 2025-10-15 at 13 16 38" src="https://github.com/user-attachments/assets/17cd6f8c-3a2e-4ac9-b30d-da0efa0fc588" />
 
-Frontend: http://localhost:5173
+```Frontend: http://localhost:5173
 
 Ensure your backend is running on port 8000.
 
@@ -97,11 +97,11 @@ Ensure your backend is running on port 8000.
 Easiest way to start the entire system locally.
 
 1️⃣ Build and start containers
-docker-compose up --build
+docker-compose up --build```
 <img width="688" height="284" alt="Screenshot 2025-10-15 at 13 15 56" src="https://github.com/user-attachments/assets/7e23da1c-4725-4a7c-9dda-b69fd9fe2f00" />
 
 
-This launches:
+```This launches:
 
 Backend → http://localhost:8000
 
