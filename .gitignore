@@ -4,6 +4,7 @@ __pycache__/
 *.pyo
 *.pyd
 *.pdb
+*.pyc
 *.egg
 *.egg-info/
 *.so
@@ -19,20 +20,34 @@ pip-wheel-metadata/
 
 # --- IDEs / Editors ---
 .vscode/
+!.vscode/extensions.json
 .idea/
 *.swp
 *.swo
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
 # --- OS Files ---
 .DS_Store
 Thumbs.db
 
-# --- Databases / Logs ---
+# --- Databases ---
 *.db
 *.sqlite3
-*.log
 
-# --- Pytest / Coverage ---
+# --- Logs ---
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# --- Testing / Coverage ---
 htmlcov/
 .tox/
 .nox/
@@ -45,9 +60,16 @@ coverage.xml
 # --- Build / Distribution ---
 build/
 dist/
+dist-ssr/
 .eggs/
 MANIFEST
 
-# --- Environment / secrets ---
+# --- Node / React ---
+node_modules/
+frontend/node_modules/
+frontend/dist/
+*.local
+
+# --- Environment / Secrets ---
 .env
 .env.*

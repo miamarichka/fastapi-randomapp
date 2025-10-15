@@ -1,22 +1,10 @@
 import httpx
-from app.core.settings import settings
 from app.schemas.user import UserCreate
 from faker import Faker
 from app.schemas.bank import BankCreate
 from app.schemas.address import AddressCreate
 
 fake = Faker()
-
-def map_random_user(payload: dict) -> UserCreate:
-    addr = payload.get("address") or {}
-    return UserCreate(
-        first_name=payload.get("first_name", "John"),
-        last_name=payload.get("last_name", "Doe"),
-        email=payload.get("email", "john.doe@example.com"),
-        phone=payload.get("phone_number"),
-        city=addr.get("city"),
-        country=addr.get("country"),
-    )
 
 async def fetch_random_user() -> UserCreate:
     async with httpx.AsyncClient() as client:
