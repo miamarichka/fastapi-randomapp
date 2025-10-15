@@ -86,6 +86,7 @@ npm install
 2️⃣ Start development server
 npm run dev
 
+<img width="1442" height="780" alt="Screenshot 2025-10-15 at 13 16 38" src="https://github.com/user-attachments/assets/17cd6f8c-3a2e-4ac9-b30d-da0efa0fc588" />
 
 Frontend: http://localhost:5173
 
@@ -97,6 +98,7 @@ Easiest way to start the entire system locally.
 
 1️⃣ Build and start containers
 docker-compose up --build
+<img width="688" height="284" alt="Screenshot 2025-10-15 at 13 15 56" src="https://github.com/user-attachments/assets/7e23da1c-4725-4a7c-9dda-b69fd9fe2f00" />
 
 
 This launches:
