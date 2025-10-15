@@ -1,4 +1,4 @@
-RandomApp — Full-Stack FastAPI + React (Vite + TypeScript)
+```RandomApp — Full-Stack FastAPI + React (Vite + TypeScript)
 
 A modular FastAPI project that generates and stores random Users, Banks, and Addresses, showing clean architecture, ORM relationships, and scalable structure.
 Now extended with a React (Vite + TypeScript) frontend and Docker Compose for easy full-stack setup.
@@ -128,4 +128,4 @@ POST /banks/random/save?user_id=1 Create random bank linked to user
 Method Endpoint Description
 GET /addresses/ List all addresses
 POST /addresses/ Create address manually
-POST /addresses/random/save?bank_id=1 Create random address linked to bank
+POST /addresses/random/save?bank_id=1 Create random address linked to bank```
